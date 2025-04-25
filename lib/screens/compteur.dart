@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:projet_cs/mywidget/mon_menu.dart';
+import './../mywidget/mon_menu.dart';
 
 class Compteur extends StatefulWidget {
   const Compteur({super.key});
@@ -37,7 +37,6 @@ class _CompteurState extends State<Compteur> {
                 cpt--;
                 print("cpt=$cpt");
               });
-              
             },
             child: Text("-"),
           ),
