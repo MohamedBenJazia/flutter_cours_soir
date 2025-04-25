@@ -2,7 +2,7 @@ import 'dart:convert';
 
 import 'package:awesome_snackbar_content/awesome_snackbar_content.dart';
 import 'package:flutter/material.dart';
-import '../model/class_produit.dart';
+import '../../code_all_tp/model/class_produit.dart';
 import '../mywidget/Input_form.dart';
 
 class ProduitForm extends StatefulWidget {
